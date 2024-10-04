@@ -1,0 +1,28 @@
+.home-container {
+  text-align: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.movie-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.movie-poster {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-item p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #333;
+}
